@@ -7,8 +7,8 @@ class numeroTest extends TestCase {
 
     public function testDecremento() {
        
-        $objeto = new Numero(100, 'positivo');
-        $this->assertEquals(98, $objeto->decremento());
+        $objeto = new Numero(50, 'positivo');
+        $this->assertEquals(49, $objeto->decremento());
 
     }
 
